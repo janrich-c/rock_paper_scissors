@@ -1,0 +1,30 @@
+h1,
+h2 {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+#rock {
+  background-image: url("res/rock.png");
+}
+
+#paper {
+  background-image: url("res/paper.png");
+}
+
+#scissors {
+  background-image: url("res/scissors.png");
+}
+
+.button {
+  background-size: 60px;
+  height: 70px;
+  width: 70px;
+  border-radius: 5px;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.377);
+  cursor: pointer;
+  background-origin: content-box;
+  background-repeat: no-repeat;
+  background-size: 50px 50px;
+  padding: 10px 7px;
+}
